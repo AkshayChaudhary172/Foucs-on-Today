@@ -1,0 +1,216 @@
+/* *{
+    margin: 0;
+    padding: 0 2px;
+} */
+
+body{
+
+    text-align: center;
+    justify-items: center;
+    /* background-color: bisque; */
+    background-image: url("https://img.freepik.com/free-vector/speed-lights-background_23-2148627267.jpg" );
+    
+    /* flex-wrap: wrap; */
+}
+.hedding{
+    
+    margin-top: 4rem;
+    color: chocolate;
+    font-size: xxx-large;
+}
+.hedding span{
+    color:blue;
+}
+.cantainer{
+    background-color:white;
+    /* border: 1px solid black; */
+    /* height: 75vh; */
+    max-width:500px;
+    margin-inline: auto;
+    margin-top: 70px;
+    padding: 10px 32px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 8px rgba(14, 8, 12, 0.3);
+
+}
+
+#sub-title{
+    text-align: left;
+    font-size:40px;
+}
+#sub-title span img{
+vertical-align: middle;
+}
+.hed-pare{
+    font-size: x-large;
+    text-align: justify;
+    padding-top: 10px;
+}
+
+.progress-bar{
+    height: 30px;
+    background-color:antiquewhite;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+.progress-value{
+    height: 100%;
+    width:0;
+    background-color:rgba(29, 241, 5, 0.979);
+    border-radius: 15px;
+    font-size: 20px;
+    color:black;
+    display: flex;
+  align-items: center;
+    overflow: hidden;
+    /* visibility: visible; */
+}
+#progress-complet-value{
+    padding-left: 10px;
+}
+.error{
+    color: red;
+    text-align: justify;
+    font-size: 22px;
+    padding-top: 10px;
+    margin-bottom: 40px;
+   display: none;
+}
+
+
+.Goals-cantainer{
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin-block: 40px;
+}
+.user-cheack-box{
+   height: 30px;
+   width: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+.completed .user-cheack-box{
+    background: darkgreen;
+    border-color: darkgreen ;
+}
+.completed .input-value{
+    color:red;
+text-decoration:line-through;
+}
+
+.input-value{
+
+    /* height: 50px; */
+    font-size:22px;
+    border:none;
+    outline-style: none;
+    margin-left: 30px;
+    /* flex-grow: 1; */
+    width: 100%;
+    align-self: stretch;
+    vertical-align: middle;
+    
+}
+.input-value::placeholder{
+    color:antiquewhite;
+}
+.quote{
+    font-size: x-large;
+    font-style:bold;
+    margin-block: 40px;
+
+}
+.footer-line{
+    font-size: larger;
+    font-style: italic;
+}
+.remove-btn{
+    margin-top: 10px;
+    font-size: large;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    border: 1px dashed black;
+    /* margin-bottom: 20px; */
+}
+
+
+@media(max-width:768px){
+    .hedding{
+        font-size: 32px;
+    }
+    
+    #sub-title{
+        font-size:29px;
+    }
+    .span-img img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .progress-bar{
+        margin-top: 20px;
+    }
+
+    .error{
+        /* color: red;
+        text-align: justify; */
+        font-size: 15px;
+        padding-top: 5px;
+        margin-bottom: 5px;
+        display: none;
+    }
+    .cantainer{
+        padding: 2px 10px;
+        margin-top: 20px;
+    }
+    .Goals-cantainer{
+        height: 40px;
+        border-radius: 9px;
+        padding: 5px 10px;
+        margin-block: 20px;
+    }
+    .user-cheack-box{
+        height: 15px;
+        width: 15px;
+    }
+    .quote{
+        margin-block: 10px;
+        font-size: medium;
+    }
+    .footer-line{
+        font-size: medium;
+        margin-top: 0px;
+        /* font-style: italic; */
+    }
+    .hedding{
+        margin-top: 10px;
+    }
+    .hed-pare{
+        font-size:medium;
+        padding-top: 0;  
+    }
+    .remove-btn{
+        font-size: small;
+        margin-top: 0;
+    }
+}
+
+/* @media(max-width:20%)
+{
+    .progress-value{
+        font-size: 5px;
+        padding: 0px;
+        display: flex;
+    }
+    #progress-complet-value{
+        font-size: 2px; 
+        padding: 0px;
+         padding-block: 10px;
+    }
+} */
